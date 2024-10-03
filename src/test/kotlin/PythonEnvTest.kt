@@ -1,3 +1,4 @@
+import ext.PythonEnv
 import org.junit.jupiter.api.Test
 
 class MethodDecoratedTests {

@@ -1,0 +1,13 @@
+ToDo
+
+connect DSL and JUnit extension
+re-read chapter about Kotlin DSL
+make special DSL for Python packages
+run tests on multiple Python version
+logic to install Python
+publish the library
+
+Oct 3, 2024
+
+* add basic DSL to define Python environments
+* add basic JUnit 5 extension
