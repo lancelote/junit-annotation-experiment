@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.extension.ExtendWith
 
-@ExtendWith(PythonEnvExtension::class)
 class MethodDecoratedTests {
 
     @Test
@@ -23,7 +21,6 @@ class MethodDecoratedTests {
 }
 
 
-@ExtendWith(PythonEnvExtension::class)
 @PythonEnv(version = "3.12", packages = ["tensorflow", "pytest"])
 class ClassDecoratedTests {
     @Test
